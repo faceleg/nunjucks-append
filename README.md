@@ -5,7 +5,7 @@ letting subviews add resources to the head or footer, for example.
 
 ## Example:
 
-`layout.html`:
+The layout - `/views/layouts/default.html`:
 
 ```HTML
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ letting subviews add resources to the head or footer, for example.
 </html>
 ```
 
-`index.html`:
+The view - `/views/index.html`:
 
 ```HTML
 {% extends "/layouts/default.html" %}
@@ -39,4 +39,24 @@ letting subviews add resources to the head or footer, for example.
     <p>The content</p>
 </div>
 {% endblock %}
+```
+
+The output:
+
+```HTML
+<html>
+<head>
+    <title>The Title</title>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <script src="/jquery.js"></script>
+    <!-- Will be output beneath jquery.js -->
+    <script src="/index-script.js"></script>
+</head>
+
+<body>
+    <div>
+        <p>The content</p>
+    </div>
+</body>
+</html>
 ```
