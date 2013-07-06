@@ -1,0 +1,23 @@
+{
+  "name": "nunjucks-append",
+  "version": "0.0.1",
+  "author": "Michael Robinson <mike@pagesofinterest.net>",
+  "description": "A nunjucks extension that allows one to create a tag and append content to it in subviews",
+  "contributors": [
+    {
+    "name": "Michael Robinson",
+    "email": "mike@pagesofinterest.net"
+  }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faceleg/nunjucks-append.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "append"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}
