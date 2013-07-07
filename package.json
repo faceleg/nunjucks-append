@@ -1,6 +1,6 @@
 {
   "name": "nunjucks-append",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Michael Robinson <mike@pagesofinterest.net>",
   "description": "A nunjucks extension that allows one to create a tag and append content to it in subviews",
   "contributors": [
